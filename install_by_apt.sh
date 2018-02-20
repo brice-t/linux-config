@@ -1,9 +1,4 @@
-sudo apt-get install silversearcher-ag
-sudo apt-get install git
-sudo apt-get install subversion
-sudo apt-get install dconf-cli
-sudo apt-get install exuberant-ctags
-sudo apt-get install fonts-hack-ttf
+sudo apt-get install silversearcher-ag git subversion dconf-cli exuberant-ctags fonts-hack-ttf stow
 
 mkdir -p ~/.vim/autoload
 mkdir -p ~/.vim/backup
