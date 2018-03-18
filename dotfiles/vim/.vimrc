@@ -50,9 +50,6 @@ Plug 'jeffkreeftmeijer/vim-numbertoggle'
 " sensible.vim: Defaults everyone can agree on
 Plug 'tpope/vim-sensible'
 
-" precision colorscheme for the vim text editor
-Plug 'altercation/vim-colors-solarized'
-
 " Syntax checking hacks for vim
 Plug 'vim-syntastic/syntastic'
 
@@ -83,6 +80,9 @@ Plug 'shawncplus/phpcomplete.vim', { 'for': 'php' }
 " A tree explorer plugin for vim
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
+" A dark theme for all the things!
+Plug 'dracula/vim', { 'as': 'dracula' }
+
 " Initialize plugin system
 call plug#end()
 
@@ -90,9 +90,9 @@ call plug#end()
 
 syntax enable
 
-" solarized from above plugin)
+" dracula color theme
 set background=dark
-colorscheme solarized
+color dracula
 
 " fonts
 if has('macunix')
